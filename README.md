@@ -21,41 +21,75 @@
 【样例输入】
 
 coNst int cONst1 = 001, const2 = -100;
+
 const char const3 = '_';
+
 int change1;
+
 char change3;
+
 int gets1(int var1,int var2){
+
     change1 = var1 + var2;
+
     return (change1);
+
 }
+
 void main(){
+
     printf("Hello World");
+
     printf(gets1(10, 20));
+
 }
+
 【样例输出】
 
 CONSTTK coNst
+
 INTTK int
+
 IDENFR cONst1
+
 ASSIGN =
+
 INTCON 001
+
 <无符号整数>
+
 <整数>
+
 COMMA ,
+
 IDENFR const2
+
 ASSIGN =
+
 MINU -
+
 INTCON 100
+
 <无符号整数>
+
 <整数>
+
 <常量定义>
+
 SEMICN ;
+
 CONSTTK const
+
 CHARTK char
+
 IDENFR const3
+
 ASSIGN =
+
 CHARCON _
+
 <常量定义>
+
 SEMICN ;
 
 <常量说明>
